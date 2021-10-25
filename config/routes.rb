@@ -5,4 +5,6 @@ Rails.application.routes.draw do
     get :qr_code_generator
     get :qr_code_download
   end
+
+  root to: 'pages#qr_code_generator'
 end
